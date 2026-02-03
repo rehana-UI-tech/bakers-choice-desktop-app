@@ -1,6 +1,6 @@
 import '../pages/Signup.scss';
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 interface User {
   username: string;
@@ -58,8 +58,9 @@ const Signup = () => {
 
     setSuccess('Registration successful! Redirecting to login...');
     setTimeout(() => {
+      setSuccess(''); 
       navigate('/login');
-    }, 1500);
+    }, 800);
   };
 
   return (
@@ -68,7 +69,11 @@ const Signup = () => {
         <h1 className="signup__title">Create Account</h1>
 
         {error && <div className="signup__error">{error}</div>}
-        {success && <div className="signup__success">{success}</div>}
+        {success && (
+  <div className="signup__success" style={{ position: 'static' }}>
+    {success}
+  </div>
+)}
 
         <form className="signup__form" onSubmit={handleSubmit}>
           <div className="signup__form-group">
@@ -127,7 +132,7 @@ const Signup = () => {
         </form>
 
         <p className="signup__footer">
-          Already have an account? <a href="/login">Login here</a>
+          Already have an account? <Link to="/login">Login here</Link>
         </p>
       </div>
     </div>

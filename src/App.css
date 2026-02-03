@@ -1,0 +1,44 @@
+#root {
+  max-width: 1480px;
+    text-align: center;
+    width: 100%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/* Reset default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Body styling */
+body {
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+/* Links */
+a {
+  color: #d4a574;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #c9935f;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+}
+
+/* Forms */
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}

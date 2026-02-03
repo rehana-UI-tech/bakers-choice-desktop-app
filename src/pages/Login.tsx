@@ -1,6 +1,6 @@
 import './Login.scss';
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useUser } from '../context/UserContext';
 
 const Login = () => {
@@ -91,7 +91,7 @@ const Login = () => {
         </form>
 
         <p className="login__footer">
-          Don't have an account? <a href="/signup">Sign up here</a>
+          Don't have an account? <Link to="/signup">Sign up here</Link>
         </p>
       </div>
     </div>

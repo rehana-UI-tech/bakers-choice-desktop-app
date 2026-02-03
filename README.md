@@ -1,3 +1,15 @@
+Developed a desktop bakery e-commerce application “Bakers Choice” focusing on clean UI, reusable components, and responsive layout.
+Designed the complete screens using Figma AI and converted designs into functional pages with the help of GitHub Copilot.
+Implemented end-to-end UI testing using Playwright to validate real user flows on the live application.
+Integrated the project with GitHub for version control and deployed it live using Vercel for continuous delivery.
+
+🔗 GitHub Repository: https://github.com/rehana-UI-tech/bakers-choice-desktop-app
+
+🌐 Live Application: https://bakers-choice-desktop-app-21kj.vercel.app
+
+
+------------------------------------------------------------------------
+
 # bakers-choice-desktop-app
 Desktop bakery e-commerce and learning application – UI-first project
 

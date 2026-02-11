@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__logo">
-        <img src="src/assets/image/logo.jpg" alt="Bakers Choice Logo" className="header__logo-image" />
+        <img src="/assets/image/logo.jpg" alt="Bakers Choice Logo" className="header__logo-image" />
       </div>
 
       <h1 className="header__title">Bakers Choice</h1>

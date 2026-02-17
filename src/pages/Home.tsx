@@ -18,7 +18,7 @@ const slides: Slide[] = [
   {
     image: "/assets/image/car-2.jpg",
     title: "Chocolate Cake",
-    text: "Rich and decadent chocolate cake with a moist, fudgy center and a glossy chocolate glaze."
+    text: "Rich and decadent chocolates cake with a moist, fudgy center and a glossy chocolate glaze."
   },
   {
     image: "/assets/image/car-3.jpg",

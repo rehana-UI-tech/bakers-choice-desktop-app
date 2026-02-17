@@ -54,6 +54,7 @@ const Login = () => {
 
   return (
     <div className="login">
+      <h1 className="textLogo">Bakers Choice</h1>
       <div className="login__container">
         <h1 className="login__title">Login</h1>
         

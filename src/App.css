@@ -42,3 +42,18 @@ input, textarea, select {
   font-family: inherit;
   font-size: inherit;
 }
+
+ .textLogo {
+    color: #D2691E;            /* Cinnamon text color [6] */
+    font-family: Georgia, "Times New Roman", serif; 
+    font-size: 80px;
+    margin: 0;
+    text-shadow: 
+        1px 1px 0px #8B4513,    /* Layer 1: Saddle Brown [6] */
+        2px 2px 0px #8B4513,    /* Layer 2 [5] */
+        3px 3px 0px #8B4513,    /* Layer 3 [5] */
+        4px 4px 1px rgba(0,0,0,0.1), /* Subtle depth [5] */
+        0px 0px 5px rgba(0,0,0,0.1), /* Initial blur for blending [5] */
+        5px 5px 10px rgba(0,0,0,0.2); /* Final soft blur to "blend it all together" [5] */
+
+  }

@@ -28,7 +28,7 @@ const Header = () => {
         <img src="/assets/image/logo.jpg" alt="Bakers Choice Logo" className="header__logo-image" />
       </div>
 
-      <h1 className="header__title">Bakers Choice</h1>
+      <h1 className="textLogo">Bakers Choice</h1>
 
       <div className="header__user-container">
         <div className="header__user" onClick={toggleDropdown}>

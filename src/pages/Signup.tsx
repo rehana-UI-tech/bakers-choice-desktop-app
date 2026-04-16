@@ -97,7 +97,7 @@ const Signup = () => {
               className="signup__input"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              placeholder="Enter username"
+              placeholder="Enter gmail address"
               required
             />
           </div>

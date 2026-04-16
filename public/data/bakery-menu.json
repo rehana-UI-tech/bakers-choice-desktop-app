@@ -1,0 +1,261 @@
+{
+  "categories": [
+    { "id": "donuts", "name": "Donuts" },
+    { "id": "cakes", "name": "Cakes" },
+    { "id": "muffins", "name": "Muffins" },
+    { "id": "cookies", "name": "Cookies" },
+    { "id": "cupcakes", "name": "Cupcakes" },
+    { "id": "pastries", "name": "Pastries" },
+    { "id": "tea-cakes", "name": "Tea Cakes" },
+    { "id": "brownies", "name": "Brownies" }
+  ],
+  "items": [
+    {
+      "id": "chocolate-donut",
+      "name": "Chocolate Donut",
+      "description": "Soft donut topped with rich chocolate glaze.",
+      "image": "/assets/image/donut.jpg",
+      "categoryId": "donuts",
+      "price": 119
+    },
+    {
+      "id": "sprinkle-donut",
+      "name": "Sprinkle Donut",
+      "description": "Classic ring donut with colorful sugar sprinkles.",
+      "image": "/assets/image/donut.jpg",
+      "categoryId": "donuts",
+      "price": 129
+    },
+    {
+      "id": "vanilla-cream-donut",
+      "name": "Vanilla Cream Donut",
+      "description": "Fluffy donut filled with smooth vanilla cream.",
+      "image": "/assets/image/donut.jpg",
+      "categoryId": "donuts",
+      "price": 139
+    },
+    {
+      "id": "caramel-donut",
+      "name": "Caramel Donut",
+      "description": "Donut dipped in buttery caramel and sea salt.",
+      "image": "/assets/image/donut.jpg",
+      "categoryId": "donuts",
+      "price": 149
+    },
+    {
+      "id": "double-choco-donut",
+      "name": "Double Choco Donut",
+      "description": "Chocolate dough donut with dark cocoa drizzle.",
+      "image": "/assets/image/donut.jpg",
+      "categoryId": "donuts",
+      "price": 159
+    },
+
+    {
+      "id": "strawberry-cake",
+      "name": "Strawberry Cake",
+      "description": "Light sponge cake with strawberry glaze topping.",
+      "image": "/assets/image/car-4.jpg",
+      "categoryId": "cakes",
+      "price": 349
+    },
+    {
+      "id": "black-forest-cake",
+      "name": "Black Forest Cake",
+      "description": "Chocolate layered cake with cream and cherry garnish.",
+      "image": "/assets/image/pastry.jpeg",
+      "categoryId": "cakes",
+      "price": 399
+    },
+    {
+      "id": "red-velvet-cake",
+      "name": "Red Velvet Cake",
+      "description": "Soft velvet-style cake finished with whipped cream.",
+      "image": "/assets/image/cake.jpg",
+      "categoryId": "cakes",
+      "price": 429
+    },
+    {
+      "id": "pineapple-cake",
+      "name": "Pineapple Cake",
+      "description": "Creamy pineapple cake with fruit notes.",
+      "image": "/assets/image/cake.jpg",
+      "categoryId": "cakes",
+      "price": 329
+    },
+    {
+      "id": "truffle-cake",
+      "name": "Chocolate Truffle Cake",
+      "description": "Dense chocolate cake with truffle-style finish.",
+      "image": "/assets/image/pastry.jpeg",
+      "categoryId": "cakes",
+      "price": 459
+    },
+
+    {
+      "id": "vanilla-muffin",
+      "name": "Vanilla Muffin",
+      "description": "Classic vanilla muffin with a buttery texture.",
+      "image": "/assets/image/car-1.jpg",
+      "categoryId": "muffins",
+      "price": 109
+    },
+    {
+      "id": "choco-chip-muffin",
+      "name": "Choco Chip Muffin",
+      "description": "Soft muffin loaded with chocolate chips.",
+      "image": "/assets/image/car-1.jpg",
+      "categoryId": "muffins",
+      "price": 119
+    },
+    {
+      "id": "banana-muffin",
+      "name": "Banana Walnut Muffin",
+      "description": "Banana muffin with crunchy walnut bits.",
+      "image": "/assets/image/car-1.jpg",
+      "categoryId": "muffins",
+      "price": 129
+    },
+    {
+      "id": "blueberry-muffin",
+      "name": "Blueberry Muffin",
+      "description": "Moist muffin packed with blueberry flavor.",
+      "image": "/assets/image/car-1.jpg",
+      "categoryId": "muffins",
+      "price": 139
+    },
+    {
+      "id": "coffee-muffin",
+      "name": "Coffee Crumble Muffin",
+      "description": "Coffee flavored muffin with sweet crumble topping.",
+      "image": "/assets/image/car-1.jpg",
+      "categoryId": "muffins",
+      "price": 149
+    },
+
+    {
+      "id": "chocolate-cookie",
+      "name": "Chocolate Cookie",
+      "description": "Soft baked cookie loaded with chocolate chips.",
+      "image": "/assets/image/car-3.jpg",
+      "categoryId": "cookies",
+      "price": 89
+    },
+    {
+      "id": "butter-cookie",
+      "name": "Butter Cookie",
+      "description": "Crisp butter cookie with melt-in-mouth texture.",
+      "image": "/assets/image/car-3.jpg",
+      "categoryId": "cookies",
+      "price": 79
+    },
+    {
+      "id": "oatmeal-cookie",
+      "name": "Oatmeal Raisin Cookie",
+      "description": "Hearty oat cookie with sweet raisin pockets.",
+      "image": "/assets/image/car-3.jpg",
+      "categoryId": "cookies",
+      "price": 99
+    },
+    {
+      "id": "almond-cookie",
+      "name": "Almond Crunch Cookie",
+      "description": "Crunchy cookie filled with roasted almonds.",
+      "image": "/assets/image/car-3.jpg",
+      "categoryId": "cookies",
+      "price": 109
+    },
+
+    {
+      "id": "vanilla-cupcake",
+      "name": "Vanilla Cupcake",
+      "description": "Vanilla cupcake with smooth cream topping.",
+      "image": "/assets/image/cake.jpg",
+      "categoryId": "cupcakes",
+      "price": 119
+    },
+    {
+      "id": "chocolate-cupcake",
+      "name": "Chocolate Cupcake",
+      "description": "Chocolate cupcake with rich cocoa cream.",
+      "image": "/assets/image/cake.jpg",
+      "categoryId": "cupcakes",
+      "price": 129
+    },
+    {
+      "id": "red-velvet-cupcake",
+      "name": "Red Velvet Cupcake",
+      "description": "Mini velvet cupcake with cream swirl.",
+      "image": "/assets/image/cake.jpg",
+      "categoryId": "cupcakes",
+      "price": 139
+    },
+    {
+      "id": "caramel-cupcake",
+      "name": "Salted Caramel Cupcake",
+      "description": "Cupcake finished with salted caramel topping.",
+      "image": "/assets/image/cake.jpg",
+      "categoryId": "cupcakes",
+      "price": 149
+    },
+
+    {
+      "id": "puff-pastry",
+      "name": "Butter Puff Pastry",
+      "description": "Flaky layered pastry with buttery finish.",
+      "image": "/assets/image/pastry.jpeg",
+      "categoryId": "pastries",
+      "price": 119
+    },
+    {
+      "id": "apple-pastry",
+      "name": "Apple Cinnamon Pastry",
+      "description": "Pastry slice with apple and cinnamon notes.",
+      "image": "/assets/image/pastry.jpeg",
+      "categoryId": "pastries",
+      "price": 139
+    },
+    {
+      "id": "choco-pastry",
+      "name": "Chocolate Layer Pastry",
+      "description": "Chocolate layered pastry with cream topping.",
+      "image": "/assets/image/pastry.jpeg",
+      "categoryId": "pastries",
+      "price": 149
+    },
+
+    {
+      "id": "choco-tea-cake",
+      "name": "Chocolate Tea Cake",
+      "description": "Slice of chocolate tea cake with glaze.",
+      "image": "/assets/image/car-2.jpg",
+      "categoryId": "tea-cakes",
+      "price": 179
+    },
+    {
+      "id": "coffee-tea-cake",
+      "name": "Coffee Tea Cake",
+      "description": "Soft tea cake infused with coffee flavor.",
+      "image": "/assets/image/car-2.jpg",
+      "categoryId": "tea-cakes",
+      "price": 199
+    },
+
+    {
+      "id": "fudge-brownie",
+      "name": "Fudge Brownie",
+      "description": "Rich chocolate brownie with fudgy center.",
+      "image": "/assets/image/car-2.jpg",
+      "categoryId": "brownies",
+      "price": 139
+    },
+    {
+      "id": "walnut-brownie",
+      "name": "Walnut Brownie",
+      "description": "Dense brownie loaded with crunchy walnuts.",
+      "image": "/assets/image/car-2.jpg",
+      "categoryId": "brownies",
+      "price": 149
+    }
+  ]
+}

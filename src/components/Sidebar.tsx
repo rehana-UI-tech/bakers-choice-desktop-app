@@ -12,6 +12,9 @@ export default function Sidebar() {
         <li className={location.pathname === '/products' ? 'active' : ''}>
           <Link to="/products">Products</Link>
         </li>
+        <li className={location.pathname === '/cart' ? 'active' : ''}>
+          <Link to="/cart">Cart</Link>
+        </li>
         <li className={location.pathname === '/contact' ? 'active' : ''}>
           <Link to="/contact">Contact Us</Link>
         </li>

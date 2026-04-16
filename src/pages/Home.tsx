@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./Home.scss";
 
 /* ---------- Types ---------- */
@@ -78,6 +78,24 @@ export default function Home() {
 
     animate();
   };
+
+  useEffect(() => {
+    const autoScrollTimer = window.setTimeout(() => {
+      moveToSlide((currentSlide + 1) % slides.length);
+    }, 3500);
+
+    return () => {
+      window.clearTimeout(autoScrollTimer);
+    };
+  }, [currentSlide]);
+
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current !== null) {
+        window.clearTimeout(timeoutRef.current);
+      }
+    };
+  }, []);
 
   /* ---------- JSX ---------- */
   return (

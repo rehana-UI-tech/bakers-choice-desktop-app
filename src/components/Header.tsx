@@ -2,6 +2,7 @@ import './Header.scss';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUser } from '../context/UserContext';
+import logoImage from '../assets/image/logo.jpg';
 
 const Header = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -25,7 +26,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__logo">
-        <img src="/assets/image/logo.jpg" alt="Bakers Choice Logo" className="header__logo-image" />
+        <img src={logoImage} alt="Bakers Choice Logo" className="header__logo-image" />
       </div>
 
       <h1 className="textLogo">Bakers Choice</h1>
